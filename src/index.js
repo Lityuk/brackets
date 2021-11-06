@@ -16,7 +16,6 @@ module.exports = function check(str, bracketsConfig) {
         str = newStr;
     }
     return true;
-
     // Все проверки вручную проходят, но команда npm test ругается и говорит что есть ошибки.
     // Причина пока не ясна
 
